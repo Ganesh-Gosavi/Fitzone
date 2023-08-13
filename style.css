@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic5.jpg );
+    font-family: 'Overpass Mono', monospace;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.left{
+    position: absolute;
+    left: 34x;
+    top: 20px;
+    /* border :2px solid red; */
+    color: aliceblue;
+    display: inline;
+    
+    
+}
+.left img{
+    width: 120px;
+    border-radius: 100px;
+    
+}
+.left div{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    
+    
+}
+
+.mid{
+    display: block;
+    width :50%;
+    margin:20px auto;     
+    /* border :2px solid rgb(0, 255, 13); */
+    color: aliceblue;
+    
+    
+}
+
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    
+    /* border :2px solid rgb(73, 237, 255); */
+    color: aliceblue;
+    display: inline;
+    
+    
+}
+.navbar{
+    display: inline;
+}
+.navbar li{
+    display: inline;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 0px 0px;
+    font-size: 20px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+    
+}
+.btn{
+    font-family: 'Overpass Mono', monospace;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border:2px solid grey ;
+    border-radius: 10px;   
+    font-size: 20px;
+    
+    cursor: pointer;   
+    
+    
+}
+.btn:hover{
+    color: blue;
+    background-color: rgb(155, 154, 154);
+}
+.container{
+    border: 2px solid whitesmoke;
+    margin: 364px 113px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 40px;
+    color: aliceblue;
+}
+.form-Group input{
+    font-family: 'Overpass Mono', monospace;
+    text-align: center;
+    display: block;
+    width: 480px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 28px;
+    border-radius: 20px;
+
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin:15px auto;
+    width:125px ;
+    padding: 10px;
+
+}
+/* #image{
+    width: 100%;
+
+} */

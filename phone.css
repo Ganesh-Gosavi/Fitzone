@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(pic2.jpg );
+    background-repeat: repeat;
+    background-size: auto;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.left img {
+  width: 85px;
+    border-radius: 100px;
+  }
+
+  .left div {
+    line-height: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .btn {
+    font-family: 'Overpass Mono', monospace;
+    margin: 3px -29px 7px 39px;
+    color: white;
+    background-color: black;
+    padding: 6px 8px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .navbar {
+    display: grid;
+    font-size: 16px;
+    padding: 20px 13px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 0px;
+    font-size: 16px;
+  }
+  .form-Group input {
+    font-family: 'Overpass Mono', monospace;
+    text-align: center;
+    display: block;
+    width: 115px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 9px auto;
+    font-size: 9px;
+    border-radius: 8px;
+  }
+  .container {
+    border: 5px solid whitesmoke;
+    margin: 176px 83px;
+    padding: 61px;
+    width: -22%;
+    border-radius: 45px;
+    color: aliceblue;
+  }
+  .container h1 {
+    text-align: center;
+    font-size: 25px;
+  }
